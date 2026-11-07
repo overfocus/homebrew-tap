@@ -5,23 +5,23 @@ class Rigswig < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/overfocus/rigswig/releases/download/v0.2.0/rigswig-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "406db35223c34c4f39ec968ec18feb40bce65f3a946b74e129baa850494ec585"
+      url "https://github.com/overfocus/rigswig/releases/download/v0.2.1/rigswig-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "ba688f4833b1b1de5f5b316595e622c6c8d70eb902a964d66d60b4559588bd68"
     end
     on_intel do
-      url "https://github.com/overfocus/rigswig/releases/download/v0.2.0/rigswig-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "8f00b960365cda27031353206c3e5d7a6dda37a46204f81def69a05c0f48ab97"
+      url "https://github.com/overfocus/rigswig/releases/download/v0.2.1/rigswig-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "6f87e4c7255b502e5e4c079068e4b32b1080ea648739bbdf3332c4d14534351f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/overfocus/rigswig/releases/download/v0.2.0/rigswig-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "b3778d6626c066ff27f4f8e709741035116bd9470e7548c3dc4fbf12000fe61c"
+      url "https://github.com/overfocus/rigswig/releases/download/v0.2.1/rigswig-v0.2.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "5b90f1f238e1125c5ee7cfff0e6498b78de5f3057ae5f76e8198d8dfd8edfd3b"
     end
     on_intel do
-      url "https://github.com/overfocus/rigswig/releases/download/v0.2.0/rigswig-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "59c1fc23b60f8827ebbd7d641a6c1073e2d9f390b66a28dcaa5af7d9e8447aed"
+      url "https://github.com/overfocus/rigswig/releases/download/v0.2.1/rigswig-v0.2.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "1f7e8e23ae93c97001363d44ce786fdb4331dc9cc30b91c8a6573c5c7649f3f2"
     end
   end
 
